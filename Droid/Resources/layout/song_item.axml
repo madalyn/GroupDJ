@@ -20,14 +20,16 @@
         android:textSize="16sp" />
     <Button
         android:id="@+id/upVoteButton"
-        android:text="Button"
         android:layout_weight="25"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:text="Up Vote"
+        android:hint="Up Vote" />
     <Button
         android:id="@+id/downVoteButton"
-        android:text="Button"
         android:layout_weight="25"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:text="Down Vote"
+        android:hint="Up Vote" />
 </LinearLayout>
