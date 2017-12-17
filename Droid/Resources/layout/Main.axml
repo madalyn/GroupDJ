@@ -3,18 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:id="@+id/myButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello"
-        android:textColor="#ffa2fffa" />
     <SearchView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/searchView1" />
+        android:id="@+id/searchView1"
+        android:queryHint="Search songs to add to playlist" />
     <LinearLayout
         android:orientation="vertical"
         android:minWidth="25px"

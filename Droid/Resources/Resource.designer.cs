@@ -44,17 +44,26 @@ namespace GroupDJ.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int linearLayout1 = 2131034114;
-			
-			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
-			
-			// aapt resource value: 0x7f050003
-			public const int playlistListView = 2131034115;
+			// aapt resource value: 0x7f050006
+			public const int downVoteButton = 2131034118;
 			
 			// aapt resource value: 0x7f050001
-			public const int searchView1 = 2131034113;
+			public const int linearLayout1 = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int playlistListView = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int rankingTextView = 2131034115;
+			
+			// aapt resource value: 0x7f050000
+			public const int searchView1 = 2131034112;
+			
+			// aapt resource value: 0x7f050004
+			public const int titleTextView = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int upVoteButton = 2131034117;
 			
 			static Id()
 			{
@@ -71,6 +80,9 @@ namespace GroupDJ.Droid
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int song_item = 2130903041;
 			
 			static Layout()
 			{
